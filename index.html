@@ -1,42 +1,170 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-
-  <!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>No&eacute;mie P&eacute;ruchon Database</title>
-  <meta name="description" content="Firedatabase assignement">
-  <meta name="author" content="Noemie Peruchon de Brochard">
+    <meta charset="utf-8" />
+    <title>No&eacute;mie P&eacute;ruchon Database</title>
+    <meta name="description" content="Firedatabase assignement" />
+    <meta name="author" content="Noemie Peruchon de Brochard" />
 
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- FONT
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- CSS
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="skeleton/normalize.css">
-  <link rel="stylesheet" href="skeleton/skeleton.css">
+    <link rel="stylesheet" href="skeleton/normalize.css" />
+    <link rel="stylesheet" href="skeleton/skeleton.css" />
 
-  <!-- Favicon
+    <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
   <body>
     <div class="container">
+      <!-- TSkeleton GRID
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
       <div class="row">
         <div class="four columns">
-          Bonjour
+          <h2>R&eacute;sultat</h2>
         </div>
         <div class="eight columns">
-          Salut
+          <h2 class="noe">nombre</h2>
         </div>
       </div>
+
+      <!-- Skeleton Typographie
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <!-- Standard Headings -->
+      <h1>Heading</h1>
+      <h2>Heading</h2>
+      <h3>Heading</h3>
+      <h4>Heading</h4>
+      <h5>Heading</h5>
+      <h6>Heading</h6>
+
+      <!-- Base type size -->
+      <p>The base type is 15px over 1.6 line height (24px)</p>
+
+      <!-- Other styled text tags -->
+      <strong>Bolded</strong>
+      <em>Italicized</em>
+      <a>Colored</a>
+      <u>Underlined</u>
+      <br />
+      <br />
+
+      <!-- Skeleton Button
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <!-- Standard buttons -->
+      <a class="button" href="#">Anchor button</a>
+      <button>Button element</button>
+      <input type="submit" value="submit input" />
+      <input type="button" value="button input" />
+
+      <!-- Primary buttons -->
+      <a class="button button-primary" href="#">Anchor button</a>
+      <button class="button-primary">Button element</button>
+      <input class="button-primary" type="submit" value="submit input" />
+      <input class="button-primary" type="button" value="button input" />
+
+      <!-- Skeleton Form
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <form>
+        <div class="row">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input
+              class="u-full-width"
+              type="email"
+              placeholder="test@mailbox.com"
+              id="exampleEmailInput"
+            />
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Reason for contacting</label>
+            <select class="u-full-width" id="exampleRecipientInput">
+              <option value="Option 1">Questions</option>
+              <option value="Option 2">Admiration</option>
+              <option value="Option 3">Can I get your number?</option>
+            </select>
+          </div>
+        </div>
+        <label for="exampleMessage">Message</label>
+        <textarea
+          class="u-full-width"
+          placeholder="Hi Dave …"
+          id="exampleMessage"
+        ></textarea>
+        <label class="example-send-yourself-copy">
+          <input type="checkbox" />
+          <span class="label-body">Send a copy to yourself</span>
+        </label>
+        <input class="button-primary" type="submit" value="Submit" />
+      </form>
+
+      <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+      <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+
+      <!-- Skeleton Code
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <pre>
+      <code>.some-class {
+        background-color: red;
+      }</code>
+    </pre>
+
+      <!-- Remember every whitespace and break will be preserved in a <pre>, including indentation in your code -->
+
+      <!-- Skeleton Table
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Sex</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dave Gamache</td>
+            <td>26</td>
+            <td>Male</td>
+            <td>San Francisco</td>
+          </tr>
+          <tr>
+            <td>Dwayne Johnson</td>
+            <td>42</td>
+            <td>Male</td>
+            <td>Hayward</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+
+    <!-- link to Firebase
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
